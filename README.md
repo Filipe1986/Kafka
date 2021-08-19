@@ -18,20 +18,17 @@ Kafka documentation: https://kafka.apache.org/documentation/
         - To serve as the foundation for data platforms, event-driven architectures, and microservices.
 
 
-#### Topic
-
-
 #### Kafka connect
-
+    //TODO
 
 #### Kafka Stream API
      Java api that handles Grouping, Aggregating, filtering, enriching in a scalable and fault-tolerant way
 
 
 #### Kafka combines three key capabilities:
-1 - publish (write) and subscribe to (read) streams
-2 - store streams of events durably and reliably for as long as you want
-3 - To process streams
+    1 - publish (write) and subscribe to (read) streams
+    2 - store streams of events durably and reliably for as long as you want
+    3 - To process streams
 
 #### How does Kafka work?
 
@@ -46,7 +43,7 @@ Kafka documentation: https://kafka.apache.org/documentation/
     - Producers are those client applications that publish (write) events to Kafka
     - Consumers are those that subscribe to (read and process) these events
     - Topic is a ordered collection of events storaged in a durable way
-    -  topic's partitions are spread buckets located on different Kafka brokers
+    - Topic's partitions are spread buckets located on different Kafka brokers
 
 
 
