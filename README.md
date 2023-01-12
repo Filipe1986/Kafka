@@ -39,11 +39,14 @@ Kafka documentation: https://kafka.apache.org/documentation/
 #### Main Concepts and Terminology
     Event, Producer, consumers, topic, partitions, broker, 
 
-    - An event has a key, value, timestamp, and optional metadata headers.
+    - An event has a key, value, timestamp, and optional metadata headers. (An event records the fact that "something happened")
     - Producers are those client applications that publish (write) events to Kafka
     - Consumers are those that subscribe to (read and process) these events
     - Topic is a ordered collection of events storaged in a durable way
+        * Very simplified, a topic is similar to a folder in a filesystem, and the events are the files in that folder. 
+        * unlike traditional messaging systems, events are not deleted after consumption. Instead,
     - Topic's partitions are spread buckets located on different Kafka brokers
+    - Brokers are 
 
 
 
