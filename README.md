@@ -32,7 +32,7 @@ Kafka documentation: https://kafka.apache.org/documentation/
 
 #### How does Kafka work?
 
-    SERVERS: Kafka is run as a cluster of one or more servers that can span multiple datacenters or cloud regions. Some of these servers form the storage layer, called the BROKERS. Other servers run Kafka Connect to continuously import and export data as event streams to integrate Kafka with your existing systems
+    SERVERS: Kafka runs as a cluster of one or more servers that can span multiple datacenters or cloud regions. Some of these servers form the storage layer, called the BROKERS. Other servers run Kafka Connect to continuously import and export data as event streams to integrate Kafka with your existing systems
 
     CLIENTS: They allow you to write applications that read, write, and process streams of events.
 
